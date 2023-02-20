@@ -1,0 +1,26 @@
+{
+    "name": "aps-viewer-react-demo",
+    "version": "0.0.0",
+    "description": "Simple React app with experimental wrapper for Autodesk Platform Services Viewer.",
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [
+        "autodesk-platform-services"
+    ],
+    "author": "Petr Broz <petr.broz@autodesk.com>",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/forge-viewer": "^7.69.5",
+        "@types/react": "^18.0.27",
+        "@vitejs/plugin-react": "^3.1.0",
+        "typescript": "^4.9.5",
+        "vite": "^4.1.3"
+    }
+}
