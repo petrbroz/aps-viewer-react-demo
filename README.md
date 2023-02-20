@@ -1,4 +1,4 @@
-# aps-viewer-wrapper-react
+# aps-viewer-react-demo
 
 Simple [React](https://reactjs.org) application with an experimental wrapper for [Autodesk Platform Services](https://aps.autodesk.com) Viewer.
 
@@ -19,7 +19,7 @@ In order to test this application you'll need two things:
 
 - clone this repository
 - install Node.js dependencies: `npm install`
-- hard-code your access token and model URN in [./src/index.tsx](./src/index.tsx)
+- hard-code your access token and model URN in [./src/index.tsx](./src/index.tsx#L6-L7)
 - build the React app: `npm run build`
 - serve the built app locally: `npm run preview`
 - open your browser and go to http://127.0.0.1:4173/
